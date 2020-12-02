@@ -34,7 +34,7 @@ class LastOccuranceIndex {
             else if (k > a[mid])
                 l = mid + 1;
             else {
-                if (mid == a.length - 1 || a[mid + 1] != k)
+                if (mid == a.length - 1 ||a[mid + 1] != k)
                     return mid;
                 else
                     l = mid + 1;
